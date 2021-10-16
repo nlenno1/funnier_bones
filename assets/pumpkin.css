@@ -6,8 +6,19 @@
 	border: 0.4em solid #a14907;
 	border-radius: 70%/110%;
 	position: relative;
-	box-shadow: inset 0 0px 20px #a14907, 0 0 30px -4px red;
+	/* box-shadow: inset 0 0px 20px #a14907, 0 0 30px -4px red; */
 	z-index: 1;
+	animation: pumpkin-glow 6s infinite ease-in-out;
+}
+
+@keyframes pumpkin-glow{
+    0% {
+        box-shadow: inset 0 0px 0px #a14907, 0 0 0px -4px green;
+    }
+
+    50% {
+        box-shadow: inset 0 0px 30px #a14907, 0 0 120px -4px green;
+    }
 }
 
 .pumpkin .surface{

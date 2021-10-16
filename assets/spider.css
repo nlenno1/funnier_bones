@@ -5,7 +5,6 @@
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
-    /* box-shadow: black 5px 5px 5px; */
 }
 
 #spider-1{
@@ -161,10 +160,6 @@
     50% {
         transform: rotate(120deg)
     }
-
-    80% {
-        transform: rotate(20deg)
-    }
 }
 
 .C {
@@ -181,9 +176,5 @@
 
     50% {
         transform: rotate(90deg)
-    }
-
-    80% {
-        transform: rotate(10deg)
     }
 }
