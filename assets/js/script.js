@@ -8,16 +8,26 @@ function dragstart_handler(ev) {
 window.addEventListener('DOMContentLoaded', () => {
     // Get the element by id
     let head = document.getElementById("game-2-part-head");
-    let front_paws = document.getElementById("game-2-part-front-paws");
-    let torso = document.getElementById("game-2-part-torso");
-    let back_paws = document.getElementById("game-2-part-back-paws");
-    let tail = document.getElementById("game-2-part-tail");
+    let front_paw_1 = document.getElementById("game-2-part-front-paw-1");
+    let front_paw_2 = document.getElementById("game-2-part-front-paw-2");
+    let torso_1 = document.getElementById("game-2-part-torso-1");
+    let torso_2 = document.getElementById("game-2-part-torso-2");
+    let torso_3 = document.getElementById("game-2-part-torso-3");
+    let back_paw_1 = document.getElementById("game-2-part-back-paw-1");
+    let back_paws_2 = document.getElementById("game-2-part-back-paw-2");
+    let tail_1 = document.getElementById("game-2-part-tail-1");
+    let tail_2 = document.getElementById("game-2-part-tail-2");
     // Add the ondragstart event listener
     head.addEventListener("dragstart", dragstart_handler);
-    front_paws.addEventListener("dragstart", dragstart_handler);
-    torso.addEventListener("dragstart", dragstart_handler);
-    back_paws.addEventListener("dragstart", dragstart_handler);
-    tail.addEventListener("dragstart", dragstart_handler);
+    front_paw_1.addEventListener("dragstart", dragstart_handler);
+    front_paw_2.addEventListener("dragstart", dragstart_handler);
+    torso_1.addEventListener("dragstart", dragstart_handler);
+    torso_2.addEventListener("dragstart", dragstart_handler);
+    torso_3.addEventListener("dragstart", dragstart_handler);
+    back_paw_1.addEventListener("dragstart", dragstart_handler);
+    back_paws_2.addEventListener("dragstart", dragstart_handler);
+    tail_1.addEventListener("dragstart", dragstart_handler);
+    tail_2.addEventListener("dragstart", dragstart_handler);
 });
 
 function dragover_handler(ev) {
