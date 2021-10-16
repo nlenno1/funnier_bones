@@ -92,6 +92,9 @@ To clone the repository, you first need to:
 
 ## Content
 
+Spider animation was a modified version of this [CodePen](https://codepen.io/SofiaSergio/pen/geGqBa)
+Pumpkin CSS was modified version of the one found in this [tutorial](https://thecodeplayer.com/walkthrough/pure-css-pumpkin)
+
 ## Media 
 
 ## Acknowledgments
