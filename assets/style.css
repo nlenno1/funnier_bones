@@ -7,3 +7,56 @@ body {
 h1, h2, h3, h4, h5 {
     font-family: 'ZCOOL KuaiLe', sans-serif;
 }
+
+.game-2-backgrounds {
+    width: 348px;
+    height: 253px;
+    display: inline-block;
+    position: relative;
+    background-image: url(../assets/img/game-2-backgrounds/dog-bg.png);
+    background-repeat: no-repeat;
+    margin: 15px;
+}
+
+.game-2-part {
+    display: inline-block;
+}
+
+.game-2-bg {
+    position: absolute;
+}
+
+#game-2-bg-head {
+    top: 0;
+    left: 0;
+    width: 115px;
+    height: 132px;
+}
+
+#game-2-bg-front-paws {
+    top: 119px;
+    left: 92px;
+    width: 28px;
+    height: 126px;
+}
+
+#game-2-bg-torso {
+    top: 98px;
+    left: 116px;
+    width: 100px;
+    height: 79px;
+}
+
+#game-2-bg-back-paws {
+    top: 98px;
+    left: 208px;
+    width: 49px;
+    height: 153px;
+}
+
+#game-2-bg-tail {
+    top: 44px;
+    left: 257px;
+    width: 95px;
+    height: 74px;
+}
