@@ -95,6 +95,9 @@ To clone the repository, you first need to:
 Spider animation was a modified version of this [CodePen](https://codepen.io/SofiaSergio/pen/geGqBa)
 Pumpkin CSS was modified version of the one found in this [tutorial](https://thecodeplayer.com/walkthrough/pure-css-pumpkin)
 
+
+Zoo game code is a modified version and mix of code from https://codepen.io/luismsf/pen/gEKku and https://codepen.io/punkydrewster713/pen/WNrXPrb
+Game music is "A friendly ghost" by Arthur Benson from open source music website https://www.epidemicsound.com/
 ## Media 
 
 ## Acknowledgments
