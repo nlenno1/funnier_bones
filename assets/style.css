@@ -60,7 +60,7 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 100%;
 }
 
 .story-link-one {
@@ -81,11 +81,11 @@ section {
   }
 
   #story_link_2 {
-    background-image: url(https://image.shutterstock.com/image-vector/vintage-town-night-bright-moon-600w-1013772571.jpg);
+    background-image: url(../assets/img/row-of-houses.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 100%;
 }
 
 .story-link-two {
@@ -94,7 +94,7 @@ section {
     width: fit-content;
     height:fit-content;
     background: beige;
-    opacity: 0.5;
+    opacity: 0.8;
     border-radius: 20px;
     position: relative;
     animation: mymove 8s 1 ease-in reverse;
