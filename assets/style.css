@@ -79,3 +79,28 @@ section {
     from {left: 0vw;}
     to {left: 100vw;}
   }
+
+  #story_link_2 {
+    background-image: url(https://image.shutterstock.com/image-vector/vintage-town-night-bright-moon-600w-1013772571.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.story-link-two {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    height:fit-content;
+    background: beige;
+    opacity: 0.5;
+    border-radius: 20px;
+    position: relative;
+    animation: mymove 8s 1 ease-in reverse;
+}
+
+@keyframes mymove {
+    from {left: 0vw;}
+    to {left: 100vw;}
+  }
