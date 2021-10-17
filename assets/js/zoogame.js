@@ -14,6 +14,18 @@ var y = 0;
 var held_directions = [];
 var speed = 1;
 
+// Music
+
+function playSound(sound) {
+    var song1 = document.getElementById(sound);
+    song1.volume = .25;
+    if (song1.paused) {
+      song1.play();
+    } else {
+      song1.pause();
+    }
+  }
+
 // Place characters
 
 const placeSkeleton = () => {
