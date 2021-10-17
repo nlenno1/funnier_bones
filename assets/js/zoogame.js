@@ -21,8 +21,10 @@ function playSound(sound) {
     song1.volume = .25;
     if (song1.paused) {
       song1.play();
+      document.getElementById("music-stop").style.visibility = "visible";
     } else {
       song1.pause();
+      document.getElementById("music-stop").style.visibility = "hidden";
     }
   }
 

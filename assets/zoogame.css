@@ -14,90 +14,99 @@
    width: 650px;
 }
 
- .zoo-camera {
-    width: calc(var(--pixel-size) * 160);
-    height: calc(var(--pixel-size) * 144);
-    overflow: hidden;
-    background: rgba(120,142,117,0.5) fixed;
-    position:relative;
- }
- 
- .map {
-    image-rendering: pixelated;
-    background-image: url("../assets/img/game-3-img/zoobg.jpg");
-    background-size: 100%;
-    width: calc(13 * var(--grid-cell));
-    height: calc(10 * var(--grid-cell));
-    position: relative;
- }
- 
- /* Skeleton characters */
+.zoo-camera {
+   width: calc(var(--pixel-size) * 160);
+   height: calc(var(--pixel-size) * 144);
+   overflow: hidden;
+   background: rgba(120,142,117,0.5) fixed;
+   position:relative;
+}
 
- .big-skeleton {
-    width: calc( var(--grid-cell)* 2 );
-    height: calc( var(--grid-cell)* 2 );
-    position: absolute;
-    overflow:hidden;
- }
+.map {
+   image-rendering: pixelated;
+   background-image: url("../assets/img/game-3-img/zoobg.jpg");
+   background-size: 100%;
+   width: calc(13 * var(--grid-cell));
+   height: calc(10 * var(--grid-cell));
+   position: relative;
+}
 
- .big-skeleton-position {
-    width: calc( var(--grid-cell)* 2 );
-    height: calc( var(--grid-cell)* 2 );
-    position: absolute;
-    left:0;
-    top:0;
-    background: url("../assets/img/game-3-img/Skelentongif2.gif") no-repeat no-repeat;
-    background-size: 100%;
- }
- 
- .little-skeleton-position {
-    width: calc( var(--grid-cell)* 1.5 );
-    height: calc( var(--grid-cell)* 1.5 );
-    position: absolute;
-    left:0;
-    top:10%;
-    
-    background: url("../assets/img/game-3-img/Skelentongif2.gif") no-repeat no-repeat;
-    background-size: 100%;
- }
+/* Skeleton characters */
 
- .dog-skeleton-position {
+.big-skeleton {
+   width: calc( var(--grid-cell)* 2 );
+   height: calc( var(--grid-cell)* 2 );
+   position: absolute;
+   overflow:hidden;
+}
+
+.big-skeleton-position {
+   width: calc( var(--grid-cell)* 2 );
+   height: calc( var(--grid-cell)* 2 );
+   position: absolute;
+   left:0;
+   top:0;
+   background: url("../assets/img/game-3-img/Skelentongif2.gif") no-repeat no-repeat;
+   background-size: 100%;
+}
+
+.little-skeleton-position {
+   width: calc( var(--grid-cell)* 1.5 );
+   height: calc( var(--grid-cell)* 1.5 );
+   position: absolute;
+   left:0;
+   top:10%;
+   
+   background: url("../assets/img/game-3-img/Skelentongif2.gif") no-repeat no-repeat;
+   background-size: 100%;
+}
+
+.dog-skeleton-position {
+width: calc( var(--grid-cell)* 6 );
+height: calc( var(--grid-cell)* 6 );
+/*position: absolute;*/
+right:0;
+top:50%;
+background: url("https://art.pixilart.com/4e51df314238813.png") no-repeat no-repeat;
+background-size: 100%;
+}
+
+.croc-skeleton-position {
+   width: calc( var(--grid-cell)* 5 );
+   height: calc( var(--grid-cell)* 5 );
+   position: absolute;
+   left:0;
+   top:60%;
+   background: url("../assets/img/game-3-img/pixelcroc1.png") no-repeat no-repeat;
+   background-size: 100%;
+}
+
+.elephant-skeleton-position {
    width: calc( var(--grid-cell)* 6 );
    height: calc( var(--grid-cell)* 6 );
-   /*position: absolute;*/
+   position: absolute;
    right:0;
-   top:50%;
-   background: url("https://art.pixilart.com/4e51df314238813.png") no-repeat no-repeat;
+   top:10%;
+   background: url("../assets/img/game-3-img/pixelele.png") no-repeat no-repeat;
    background-size: 100%;
- }
+}
 
- .croc-skeleton-position {
-    width: calc( var(--grid-cell)* 5 );
-    height: calc( var(--grid-cell)* 5 );
-    position: absolute;
-    left:0;
-    top:60%;
-    background: url("../assets/img/game-3-img/pixelcroc1.png") no-repeat no-repeat;
-    background-size: 100%;
-  }
+.parrot-skeleton-position {
+   width: calc( var(--grid-cell)* 3 );
+   height: calc( var(--grid-cell)* 3 );
+   position: absolute;
+   right:0;
+   bottom: 10%;
+   background: url("../assets/img/game-3-img/pixelparrot.png") no-repeat no-repeat;
+   background-size: 100%;
+}
 
-  .elephant-skeleton-position {
-    width: calc( var(--grid-cell)* 6 );
-    height: calc( var(--grid-cell)* 6 );
-    position: absolute;
-    right:0;
-    top:10%;
-    background: url("../assets/img/game-3-img/pixelele.png") no-repeat no-repeat;
-    background-size: 100%;
-  }
- 
-  .parrot-skeleton-position {
-    width: calc( var(--grid-cell)* 3 );
-    height: calc( var(--grid-cell)* 3 );
-    position: absolute;
-    right:0;
-    bottom: 10%;
-    background: url("../assets/img/game-3-img/pixelparrot.png") no-repeat no-repeat;
-    background-size: 100%;
-  }
+#game-start{
+   margin: 22px 0 0;
+}
+
+#music-stop{
+   margin: 0;
+   visibility: hidden;
+}
  
