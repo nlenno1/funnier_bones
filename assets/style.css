@@ -54,3 +54,89 @@ section {
     width:100%;
     overflow:hidden;
 }
+
+#story_link_1 {
+    background-image: url(../assets/img/spookybedroom.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.story-link-one {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    height:fit-content;
+    background: beige;
+    opacity: 0.5;
+    border-radius: 20px;
+    position: relative;
+    animation: mymove 8s 1 ease-in reverse;
+}
+
+@keyframes mymove {
+    from {left: 0vw;}
+    to {left: 100vw;}
+  }
+
+  #story_link_2 {
+    background-image: url(https://image.shutterstock.com/image-vector/vintage-town-night-bright-moon-600w-1013772571.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.story-link-two {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    height:fit-content;
+    background: beige;
+    opacity: 0.5;
+    border-radius: 20px;
+    position: relative;
+    animation: mymove 8s 1 ease-in reverse;
+}
+
+#story_link_2_append{
+    background-image: url(http://2.bp.blogspot.com/-TcwLfmRiXeY/UnH_TO-R5TI/AAAAAAAAAu4/SospiWfMgnQ/s1600/dramamaniacsspooky2small.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.story-link-two-append {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    height:fit-content;
+    background: beige;
+    opacity: 0.5;
+    border-radius: 20px;
+    position: relative;
+    animation: mymove 8s 1 ease-in reverse;
+}
+
+@keyframes mymove {
+    from {left: 0vw;}
+    to {left: 100vw;}
+  }
+
+  .story-link-2-append-para {
+    font-family: "Bubblegum Sans", fantasy;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1.4vw;
+    width: fit-content;
+    height:fit-content;
+    color: transparent;
+    background-image: url(https://media.giphy.com/media/CKlafeh1NAxz35KTq4/giphy-downsized-large.gif);
+    background-size: cover;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    line-height: 1.3;
+    margin: 10px 0;
+  }
