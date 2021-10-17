@@ -6,6 +6,10 @@
 
  /* Camera and map*/
 
+.frame {
+   width: 650px;
+}
+
  .zoo-camera {
     width: calc(var(--pixel-size) * 160);
     height: calc(var(--pixel-size) * 144);
