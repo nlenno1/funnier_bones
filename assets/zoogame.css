@@ -4,6 +4,10 @@
     --bg: #9fa7e4;
  }
 
+#game_3 {
+   background: url(../assets/img/game-3-img/spookytown.jpg);
+}
+
  /* Camera and map*/
 
 .frame {
@@ -14,7 +18,7 @@
     width: calc(var(--pixel-size) * 160);
     height: calc(var(--pixel-size) * 144);
     overflow: hidden;
-    background: linear-gradient(45deg, #111D10, #788e75, #a6b6a4) fixed;;
+    background: rgba(120,142,117,0.5) fixed;
     position:relative;
  }
  
