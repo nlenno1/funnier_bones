@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="assets/spider.css">
     <link rel="stylesheet" href="assets/pumpkin.css">
+	<link rel="stylesheet" href="assets/zoogame.css">
     <title>Funnier Bones</title>
 </head>
 <body>
@@ -219,7 +220,37 @@
 
     </section>
     <section id="game_3">
-
+		<div class="frame">
+			<div class="corner_topleft"></div>
+			<div class="corner_topright"></div>
+			<div class="corner_bottomleft"></div>
+			<div class="corner_bottomright"></div>
+			<audio id="sound">
+				<source src="assets/music/ES_The Friendly Ghost - Arthur Benson.mp3" type="audio/mp3">
+			  </audio>
+			<div class="zoo-camera" onclick="playSound('sound')">
+				<div class="map">
+					<div class="big-skeleton">
+						<div class="big-skeleton-position"></div>
+					</div>
+					<div class="little-skeleton">
+						<div class="little-skeleton-position"></div>
+					</div>
+					<div class="dog-skeleton">
+						<div class="dog-skeleton-position"></div>
+					</div>
+					<div class="croc-skeleton">
+						<div class="croc-skeleton-position"></div>
+					</div>
+					<div class="elephant-skeleton">
+						<div class="elephant-skeleton-position"></div>
+					</div>
+					<div class="parrot-skeleton">
+						<div class="parrot-skeleton-position"></div>
+					</div>
+				</div>
+			</div>
+		</div>
     </section>
     <section id="story_link_3">
 
@@ -248,5 +279,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <!-- Local Script Links -->
     <script type="text/javascript" src="assets/js/script.js"></script>
+	<script type="text/javascript" src="assets/js/zoogame.js"></script>
+
 </body>
 </html>
