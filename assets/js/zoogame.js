@@ -113,3 +113,88 @@ const placeSkeleton = () => {
     dogSkeleton.style.transform = `translate3d( ${x*pixelSize}px, ${y*pixelSize}px, 0 )`;  
  }
  
+
+ var reset = function () {
+	bigSkeleton.x = map.width / 2;
+	bigSkeleton.y = map.height / 2;
+
+	// Throw the monster somewhere on the screen randomly
+	crocSkeleton.x = 32 + (Math.random() * (map.width - 64));
+	crocSkeleton.y = 32 + (Math.random() * (map.height - 64));
+};
+
+var update = function (modifier) {
+	/*if (38 in held_directions) { // Player holding up
+		character.y -= character.speed * modifier;
+	}
+	if (40 in held_directions) { // Player holding down
+		character.y += character.speed * modifier;
+	}
+	if (37 in held_directions) { // Player holding left: ;
+		character.x -= character.speed * modifier;
+	}
+	if (39 in held_directions) { // Player holding right: ;
+		character.x += character.speed * modifier;
+	}*/
+
+	// Are they touching?
+	if (
+		bigSkeleton.x <= (crocSkeleton.x + 32)
+		&& crocSkeleton.x <= (bigSkeleton.x + 32)
+		&& bigSkeleton.y <= (crocSkeleton.y + 32)
+		&& crocSkeleton.y <= (bigSkeleton.y + 32)
+	) {
+		++monstersCaught;
+		reset();
+	}
+};
+
+ var main = function () {
+	var now = Date.now();
+	var delta = now - then;
+	update(delta / 1000);
+    placeSkeleton();
+    placeLittleSkeleton();
+    placeDogSkeleton();
+
+	then = now;
+
+	// Request to do this again ASAP
+	requestAnimationFrame(main);
+};
+
+// Cross-browser support for requestAnimationFrame
+var w = window;
+requestAnimationFrame = w.requestAnimationFrame || w.webkitRequestAnimationFrame || w.msRequestAnimationFrame || w.mozRequestAnimationFrame;
+var then = Date.now();
+reset();
+main();
+
+
+/* Direction key state */
+const directions = {
+    up: "up",
+    down: "down",
+    left: "left",
+    right: "right",
+ }
+ const keys = {
+    38: directions.up,
+    37: directions.left,
+    39: directions.right,
+    40: directions.down,
+ }
+ document.addEventListener("keydown", (e) => {
+    var dir = keys[e.which];
+    if (dir && held_directions.indexOf(dir) === -1) {
+       held_directions.unshift(dir)
+    }
+ })
+ 
+ document.addEventListener("keyup", (e) => {
+    var dir = keys[e.which];
+    var index = held_directions.indexOf(dir);
+    if (index > -1) {
+       held_directions.splice(index, 1)
+    }
+ });
