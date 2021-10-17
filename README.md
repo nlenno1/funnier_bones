@@ -17,8 +17,23 @@
 
 ## Scope 
 
-## Structure
+## **Wireframes**
 
+---
+Pages 1,2,4,5,8,9,10 - Background image with story text
+![alt_text](assets/wireframes/wireframe-1.png "image_tooltip")
+Page 3 - Help get the skeleton get to the door
+![alt_text](assets/wireframes/wireframe-2.png "image_tooltip")
+Page 6 - Put the dog back together
+![alt_text](assets/wireframes/wireframe-3.png "image_tooltip")
+Page 7 - Bring the skeletons throught the zoo
+![alt_text](assets/wireframes/wireframe-4.png "image_tooltip")
+
+---
+
+[Return to Table of Contents](#table-of-contents)
+
+---
 
 ## Skeleton
 
