@@ -16,7 +16,7 @@
  
  .map {
     image-rendering: pixelated;
-    background-image: url("assets/img/game-3-img/zoobg.jpg");
+    background-image: url("/assets/img/game-3-img/zoobg.jpg");
     background-size: 100%;
     width: calc(13 * var(--grid-cell));
     height: calc(10 * var(--grid-cell));
@@ -38,7 +38,7 @@
     position: absolute;
     left:0;
     top:0;
-    background: url("assets/img/game-3-img/Skelentongif2.gif") no-repeat no-repeat;
+    background: url("/assets/img/game-3-img/Skelentongif2.gif") no-repeat no-repeat;
     background-size: 100%;
  }
  
@@ -49,7 +49,7 @@
     left:0;
     top:10%;
     
-    background: url("assets/img/game-3-img/Skelentongif2.gif") no-repeat no-repeat;
+    background: url("/assets/img/game-3-img/Skelentongif2.gif") no-repeat no-repeat;
     background-size: 100%;
  }
 
@@ -69,7 +69,7 @@
     position: absolute;
     left:0;
     top:60%;
-    background: url("assets/img/game-3-img/pixelcroc1.png") no-repeat no-repeat;
+    background: url("/assets/img/game-3-img/pixelcroc1.png") no-repeat no-repeat;
     background-size: 100%;
   }
 
@@ -79,7 +79,7 @@
     position: absolute;
     right:0;
     top:10%;
-    background: url("assets/img/game-3-img/pixelele.png") no-repeat no-repeat;
+    background: url("/assets/img/game-3-img/pixelele.png") no-repeat no-repeat;
     background-size: 100%;
   }
  
@@ -89,7 +89,7 @@
     position: absolute;
     right:0;
     bottom: 10%;
-    background: url("assets/img/game-3-img/pixelparrot.png") no-repeat no-repeat;
+    background: url("/assets/img/game-3-img/pixelparrot.png") no-repeat no-repeat;
     background-size: 100%;
   }
  
