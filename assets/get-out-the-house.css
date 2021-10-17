@@ -1,0 +1,86 @@
+.game-1 {
+    height: 100%;
+    width: 100%
+}
+
+#jump-game {
+    width: 400px;
+    height: 550px;
+    background-color: #c4c4c4;
+    position: relative;
+    margin: 0 auto;
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
+
+.jump-game-player {
+    width: 60px;
+    height: 85px;
+    position: absolute;
+    background-image: url("assets/img/jumping_skeleton.jpg");
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.jump-game-platform {
+    width: 65px;
+    height: 15px;
+    background-color:#835b2a;
+    border-radius: 15px;
+    position: absolute;
+}
+
+#message_board{
+    font-size: 30px;
+}
+
+
+
+
+
+.run-home-game {
+    width: 600px;
+    height: 200px;
+    margin: auto;
+    background-color: #c4c4c4;
+}
+
+.run-home-player {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    background-size: 50px 50px;
+
+    position: relative;
+    top: 150px;
+
+    animation: jump 0.3s linear;
+} 
+
+.run-home-obstacle {
+    
+}
+
+@keyframes jump {
+    0% {
+      top: 150px;
+    }
+  
+    30% {
+      top: 130px;
+    }
+  
+    50% {
+      top: 80px;
+    }
+  
+    80% {
+      top: 130px;
+    }
+  
+    100% {
+      top: 150px;
+    }
+}
