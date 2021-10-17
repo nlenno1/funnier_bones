@@ -3,7 +3,7 @@ var prev_button = $("#prev");
 var sections = [
     $('#title_sequence'),
     $('#story_link_1'),
-    $('#game_1'),
+    $('#game-1'),
     $('#story_link_2'),
     $('#story_link_2_append'),
     $('#game_2'),
