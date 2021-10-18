@@ -89,6 +89,14 @@ The website includes four games:
 Lighthouse Testing
 ![Lighthouse Test Results Image](assets/img/funnier_bones_lighthouse_testing.jpg)
 
+Automatic testing was done using [Selenium IDE](https://www.selenium.dev/selenium-ide/): [funnier-bones-test](assets/testing/funnier-bones.side)
+To open this file:
+- Download the file
+- Go to [Selenium IDE](https://www.selenium.dev/selenium-ide/)
+- Download the add-on for the browser you're currently using (e.g. if you're using Google Chrome, click on "CHROME DOWNLOAD")
+- Open the add-on
+- Click on Open Project
+
 # Deployment
 
 All the code was written using [Gitpod](https://www.gitpod.io/), an online IDE, and then pushed to a repository which was stored on a [Gitpod account](https://github.com/nlenno1/).
@@ -146,6 +154,7 @@ Game music is "A friendly ghost" by Arthur Benson from open source music website
 * [W3 schools](https://www.w3schools.com/) for assistance with text box animations.
 * [Stack Over Flow](https://stackoverflow.com/) was used for general troubleshooting.
 * [Photopea](https://www.photopea.com/) was used to edit the skeleton dog image for the second game.
+* [Selenium IDE](https://www.selenium.dev/selenium-ide/) for testing
 
 ## Media 
 
