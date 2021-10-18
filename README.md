@@ -5,16 +5,19 @@
 
 ***
 # Introduction
-
+Join the Funnybones skeletons in their fun and spooky adventures around the town!
+A new interactive take on the modern classic children's story - Funnybones.
 # Development Planes
 ## Strategy
 
 ### Project Goals
-
+The goal of the website is to present a new look and experience to the children's book Funnybones.
 ### User Demographic
-
+This website is aimed at very young children.
 ### User Stories
+* As a parent I would like to be able to read a story with my child that includes animation and games.
 
+* As an avid Funnybones fan I would like to experience the story with a new look and interaction. 
 ## Scope 
 
 ## **Wireframes**
