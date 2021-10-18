@@ -11,9 +11,10 @@ A new interactive take on the modern classic children's story - Funnybones.
 ## Strategy
 
 ### Project Goals
-The goal of the website is to present a new look and experience to the children's book Funnybones.
+* To present a new look and experience to the children's book Funnybones.
+* To create interactive elements appropriate to the storyline.
 ### User Demographic
-This website is aimed at very young children.
+This website is aimed at very young children and parents of young children.
 ### User Stories
 * As a parent I would like to be able to read a story with my child that includes animation and games.
 
@@ -43,6 +44,27 @@ Page 7 - Bring the skeletons throught the zoo
 
 
 # Features
+* The complete Funnybones storyline.
+
+* Images and animation to accompany the storyline.
+
+* Simple interactive games for fun.
+
+## Games
+The website includes four games:
+
+* Game one:
+* Get out of the house 2D platform game.
+
+* Game two:
+* Put the dog back together puzzle game.
+
+* Game three:
+* Run around the zoo 2D topdown game.
+
+* Game four:
+* Get home 2D jumping game
+
 
 ## Features for future releases
 
