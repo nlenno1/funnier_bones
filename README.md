@@ -87,7 +87,7 @@ The website includes four games:
 # Testing
 
 Lighthouse Testing
-![Lighthouse Test Results Image](assets/img/funnier_bones_lighthouse_testing.jpg)
+![Lighthouse Test Results Image](assets/testing/funnier_bones_lighthouse_testing.jpg)
 
 Automatic testing was done using [Selenium IDE](https://www.selenium.dev/selenium-ide/): [funnier-bones-test](assets/testing/funnier-bones.side)
 To open this file:
