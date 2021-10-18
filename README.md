@@ -100,12 +100,22 @@ To clone the repository, you first need to:
 
 ## Content
 
-Spider animation was a modified version of this [CodePen](https://codepen.io/SofiaSergio/pen/geGqBa)
+* Spider animation was a modified version of this [CodePen](https://codepen.io/SofiaSergio/pen/geGqBa)
 Pumpkin CSS was modified version of the one found in this [tutorial](https://thecodeplayer.com/walkthrough/pure-css-pumpkin)
 
 
-Zoo game code is a modified version and mix of code from https://codepen.io/luismsf/pen/gEKku and https://codepen.io/punkydrewster713/pen/WNrXPrb
+* Zoo game code is a modified version and mix of code from https://codepen.io/luismsf/pen/gEKku and https://codepen.io/punkydrewster713/pen/WNrXPrb
 Game music is "A friendly ghost" by Arthur Benson from open source music website https://www.epidemicsound.com/
+
+* [Slider revolution](https://www.sliderrevolution.com/resources/css-text-animation/) code was used for guidance on how to use giff images as backgrounds. 
+* [W3 schools](https://www.w3schools.com/) for assistance with text box animations.
+* [Stack Over Flow](https://stackoverflow.com/) was used for general troubleshooting.
 ## Media 
 
+* [Clipart Library](http://clipart-library.com/) and [Pixabay](https://pixabay.com/illustrations/halloween-haunted-house-horror-836849/) was used for background images
+* [Giphy](https://giphy.com/gifs/lightning-strike-CKlafeh1NAxz35KTq4) was used for the giff image behind the text.
+* [Illustoon](https://illustoon.com/) images were used to create the Hackathon App image
+
 ## Acknowledgments
+
+
