@@ -148,8 +148,8 @@ section {
     height: 100%;
 }
 
-#story_link_4 {
-    background-image: url(../assets/img/row-of-houses.png);
+#ending_sequence {
+    background-image: url(../assets/img/halloween-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
