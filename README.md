@@ -107,7 +107,7 @@ When you fork the repository you create a copy of the original repository on you
 To Fork something you need to:
 
 1. Log into your GitHub account or create one.
-2. Open the [repository](https://github.com/nlenno1/funnier-bones).
+2. Open the [repository](https://github.com/nlenno1/funnier_bones).
 3. Click the "Fork" button which is located on the right-hand side of the screen just below your user icon.
 4. The fork should load and save to your GitHub account.
 
@@ -121,7 +121,7 @@ To clone the repository, you first need to:
 
 ## Cloning the Repository using Git
 
-1. Open the [repository](https://github.com/nlenno1/funnier-bones), click the  code button, which is located on the right above all the repository file names.
+1. Open the [repository](https://github.com/nlenno1/funnier_bones), click the  code button, which is located on the right above all the repository file names.
 2. Select HTTPS and copy the clone URL.
 3. In your command line type "git clone" and then paste the URL that you just copied.
 4. Press enter to create your local clone
