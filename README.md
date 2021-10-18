@@ -1,5 +1,5 @@
 # Funnier Bones
-![Project Represention Image](assets/readme-assets/fmm-pesentation-image.jpg)
+![Project Represention Image](assets/img/funnier_bones_representation.png)
 
 [Link to Live Project](https://nlenno1.github.io/funnier_bones/)
 
@@ -76,6 +76,20 @@ The website includes four games:
 - HTML5 - Programming Language
 - CSS3 - Programming Language
 - JavaScript - Programming Language
+- [jQuery](https://jquery.com/) - JavaScript Library
+- [Bootstrap](https://getbootstrap.com/) - Library Import
+- [Google Fonts](https://fonts.google.com/) - Typography Import
+- [Git Pod](https://gitpod.io/) - IDE (Integrated Development Environment)
+- [Git](https://git-scm.com/) - Version Control Tool
+- [Github](https://github.com/) - Cloud based hosting service to manager my Git Repositories
+- [Code Institute GitPod Template](https://github.com/Code-Institute-Org/gitpod-full-template) - Provides GitPod extensions to help with code production
+- [Google Chrome Development Tools](https://developer.chrome.com/docs/devtools/) - Development Tools
+- [Tiny JPG](https://tinyjpg.com/) - JPG and PNG Image Compressor
+- [Balsamiq](https://www.https://balsamiq.com//) - Wireframe designer software
+- [HTML Formatter](https://www.freeformatter.com/html-formatter.html#ad-output) - Formatting HTML Code
+- [CSS Beautifier](https://www.freeformatter.com/css-beautifier.html) - Beautifying CSS Code
+- [JavaScript Validator](https://beautifytools.com/javascript-validator.php) - Validating JS code
+- [Font Awesome](https://fontawesome.com/) - Icon provider
 
 # Testing
 
@@ -131,6 +145,9 @@ Pumpkin CSS was modified version of the one found in this [tutorial](https://the
 
 * Zoo game code is a modified version and mix of code from https://codepen.io/luismsf/pen/gEKku and https://codepen.io/punkydrewster713/pen/WNrXPrb
 Game music is "A friendly ghost" by Arthur Benson from open source music website https://www.epidemicsound.com/
+
+* [Chrome Dinosaur Tutorial](https://www.youtube.com/watch?v=i7nIutSLvdU&ab_channel=Keepcoding) was used to build the get out the house game
+* [Build Flappy Bird and Doodle jump tutorial](https://www.youtube.com/watch?v=8xPsg6yv7TU&ab_channel=freeCodeCamp.org) was used to build the run home game.
 
 * [Slider revolution](https://www.sliderrevolution.com/resources/css-text-animation/) code was used for guidance on how to use giff images as backgrounds. 
 * [W3 schools](https://www.w3schools.com/) for assistance with text box animations.
