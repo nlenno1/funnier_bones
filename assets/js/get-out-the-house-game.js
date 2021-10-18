@@ -189,7 +189,7 @@ document.querySelector("#jump_game_start_button").addEventListener("click", func
  
     function start() {
         if (!isGameOver) {
-            messageBoard.innerHTML = ""
+            messageBoard.innerHTML = "&nbsp"
             grid.innerHTML = ""
             createPlatforms()
             createJumper()
