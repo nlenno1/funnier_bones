@@ -131,6 +131,7 @@ To clone the repository, you first need to:
 # Credits
 
 ## Content
+* Funnybones was created by Janet Ahlberg and Allan Ahlberg, and written by Jocelyn Stevenson.
 
 * Spider animation was a modified version of this [CodePen](https://codepen.io/SofiaSergio/pen/geGqBa)
 Pumpkin CSS was modified version of the one found in this [tutorial](https://thecodeplayer.com/walkthrough/pure-css-pumpkin)
