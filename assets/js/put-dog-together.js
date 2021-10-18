@@ -1,4 +1,5 @@
 /* from https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API */
+var score = 0;
 
 function dragstart_handler(ev) {
     // Add the target element's id to the data transfer object
@@ -43,5 +44,13 @@ function drop_handler(ev) {
         // Get the id of the target and add the moved element to the target's DOM
         const data = ev.dataTransfer.getData("text/plain");
         ev.target.appendChild(document.getElementById(data));
+        score++;
+        if (score === 10) {
+            let next_button = $("#next");
+            let congratulations = $("#game-2-congratulations");
+            next_button.removeClass("disabled");
+            next_button.addClass("next");
+            congratulations.removeClass("hidden");
+        }
     }
 }
