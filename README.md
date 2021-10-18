@@ -110,9 +110,12 @@ Game music is "A friendly ghost" by Arthur Benson from open source music website
 * [Slider revolution](https://www.sliderrevolution.com/resources/css-text-animation/) code was used for guidance on how to use giff images as backgrounds. 
 * [W3 schools](https://www.w3schools.com/) for assistance with text box animations.
 * [Stack Over Flow](https://stackoverflow.com/) was used for general troubleshooting.
+* [Photopea](https://www.photopea.com/) was used to edit the skeleton dog image for the second game.
+
 ## Media 
 
-* [Clipart Library](http://clipart-library.com/) and [Pixabay](https://pixabay.com/illustrations/halloween-haunted-house-horror-836849/) was used for background images
+* [Clipart Library](http://clipart-library.com/) was used for background images and for the [skeleton dog](http://clipart-library.com/clipart/n740427.htm) of the second game
+* Pixabay [hounted house](https://pixabay.com/illustrations/halloween-haunted-house-horror-836849/) and [twilight light night](https://pixabay.com/vectors/landscape-twilight-light-night-1844231/) was used for background images
 * [Giphy](https://giphy.com/gifs/lightning-strike-CKlafeh1NAxz35KTq4) was used for the giff image behind the text.
 * [Illustoon](https://illustoon.com/) images were used to create the Hackathon App image
 
