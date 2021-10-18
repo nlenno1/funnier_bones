@@ -153,11 +153,8 @@
 		<div class="teeth"></div>
 	</div>
 	<div class="text-center mt-5">
-		<!-- Audio functionality taken from stackoverflow (see script.js for link)-->
-		<audio id="myAudio" src="assets/music/ES_The Friendly Ghost - Arthur Benson.mp3" preload="auto">
-		</audio>
 		<h1 id="main title">Funnier Bones</h1>
-		<p>A skeleton adventure story <button onClick="togglePlay()" class="btn text-light sound-button"><i class="fas fa-volume-up sound-button-icon"></i> Music</button></p>
+		<p>A skeleton adventure story <button onclick="playSound('sound')" class="btn text-light sound-button"><i class="fas fa-volume-up sound-button-icon"></i> Music</button></p>
 	</div>
 	<div class="main-container">
 		<section id="title_sequence">
@@ -363,7 +360,7 @@
 		</section>
 		<section id="game_3" class="hidden">
 			<p id="game-start" class="text-center">Click to bring the skeletons through the zoo</p>
-			<p id="music-stop" class="text-center">Click again to stop the music</p>
+			<p id="music-stop" class="text-center">Click on the map to stop the music</p>
 			<div class="frame mx-auto">
 				<div class="corner_topleft"></div>
 				<div class="corner_topright"></div>
@@ -420,16 +417,18 @@
 			</div>
 		</section>
 		<section id="game_4" class="hidden">
-			<div class="text-center mt-5 mb-5">
-				<h2>Can you help the skeletons run home?</h2>
-				<p>Press and keyboard button to jump the pumpkins</p>
-				<button id="run-game-start-button" class="btn btn-secondary mt-3 mb-3"> Start Game </button>
+			<div class="mb-5">
+				<div class="text-center mt-5 mb-5">
+					<h2>Can you help the skeletons run home?</h2>
+					<p id="running-message-board" class="text-center">&nbsp</p>
+					<p>Press and keyboard button to jump the pumpkins</p>
+					<button id="run-game-start-button" class="btn btn-secondary mt-3 mb-3"> Start Game </button>
+				</div>
+				<div class="run-home-game mb-5">
+					<div id="run-home-player"></div>
+					<div id="run-home-obstacle"></div>
+				</div>
 			</div>
-			<div class="run-home-game">
-				<div id="run-home-player"></div>
-				<div id="run-home-obstacle"></div>
-			</div>
-			<p id="running-message-board" class="text-center  mt-5">&nbsp</p>
 		</section>
 		<section id="ending_sequence" class="hidden">
 			<div class="story-link-two-append">
@@ -470,7 +469,6 @@
 		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
 	</script>
 	<!-- Local Script Links -->
-	<script type="text/javascript" src="assets/js/script.js"></script>
 	<script type="text/javascript" src="assets/js/zoogame.js"></script>
 	<script type="text/javascript" src="assets/js/put-dog-together.js"></script>
 	<script type="text/javascript" src="assets/js/navigation.js"></script>
