@@ -26,7 +26,20 @@ $(next_button).click(function () {
     if (current_page === 10) {
         next_button.addClass("disabled");
         next_button.removeClass("next");
-    } else {
+    } else if (current_page === 6) {
+        console.log(current_page)
+        /* https://stackoverflow.com/questions/1227286/get-class-list-for-element-with-jquery */
+        let classList = document.getElementById('game-2-congratulations').className.split(/\s+/);
+        console.log(classList)
+        for (let i = 0; i < classList.length; i++) {
+            if (classList[i] === 'hidden') {
+                console.log("im here")
+                next_button.addClass("disabled");
+                next_button.removeClass("next");
+            }
+        }
+    }
+    else {
         prev_button.removeClass("disabled");
         prev_button.addClass("previous");
     }
