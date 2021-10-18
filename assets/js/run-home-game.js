@@ -1,4 +1,4 @@
-document.querySelector('#running-game-start-button').addEventListener("click", function () {
+document.querySelector('#run-game-start-button').addEventListener("click", function () {
 
     const player = document.querySelector('#run-home-player');
     const obstacle = document.querySelector('#run-home-obstacle');
@@ -41,7 +41,7 @@ document.querySelector('#running-game-start-button').addEventListener("click", f
     function start () {
         obstacle.classList.add("run-home-obstacle")
         player.classList.add("run-home-player")
-        document.querySelector('#running-message-board').innerHTML = ""
+        document.querySelector('#running-message-board').innerHTML = "&nbsp"
         document.addEventListener("keydown", function (event) {
             jump();
         }) 
