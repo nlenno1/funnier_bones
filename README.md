@@ -31,8 +31,16 @@ Page 3 - Help get the skeleton get to the door
 Page 6 - Put the dog back together
 ![alt_text](assets/wireframes/wireframe-3.png "image_tooltip")
 Page 7 - Bring the skeletons throught the zoo
-![alt_text](assets/wireframes/wireframe-4.png "image_tooltip")d
-d
+![alt_text](assets/wireframes/wireframe-4.png "image_tooltip")
+
+### Design
+
+**Colour Scheme**
+
+**Typography**
+* The Bubblegum Sans", fantasy font was used for the story text.
+* Montserrat', Arial, sans-serif for main body text.
+* ZCOOL KuaiLe', sans-serif for main title text.
 
 # Features
 * The complete Funnybones storyline.
