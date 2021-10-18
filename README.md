@@ -36,6 +36,9 @@ Page 7 - Bring the skeletons throught the zoo
 ### Design
 
 **Colour Scheme**
+* The colors used are those associated with halloween.
+* #703c14, #a14907 and #401d03 for orange hues on pumpkins.
+* Black and white colors used for text and backgrounds.
 
 **Typography**
 * The Bubblegum Sans", fantasy font was used for the story text.
@@ -85,10 +88,6 @@ The website includes four games:
 
 Lighthouse Testing
 ![Lighthouse Test Results Image](assets/img/funnier_bones_lighthouse_testing.jpg)
-
-
-# Validation
-
 
 # Deployment
 
