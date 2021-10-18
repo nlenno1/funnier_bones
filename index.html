@@ -151,7 +151,7 @@
 		<div class="teeth"></div>
 	</div>
 	<div class="text-center mt-5">
-		<h1>Funnier Bones</h1>
+		<h1 id="main title">Funnier Bones</h1>
 		<p>A skeleton adventure story</p>
 	</div>
 	<div class="main-container">
@@ -195,11 +195,18 @@
 		<div id="game-1" class="text-center hidden">
 			<div class="mt-5">
 				<h4> Can you help the skeleton get up to the door to go outside?</h4>
-				<p>Use the arrow keys to move and bounce on the platforms to get higher and higher!</p>
-				<p id="message-board">Click the button the start the game!</p>
+				<div class="row g-0 text-start">
+					<div class="col-7 offset-2">
+						<p>Use the arrow keys to move and bounce on the platforms to get higher and higher!</p>
+						<p id="message-board">Click the button the start the game!</p>
+					</div>
+					<div class="col-3 text-start">
+						<button id="jump_game_start_button" class= "btn btn-secondary mt-3 mb-3"> Start Game </button>
+					</div>
+				</div>
+				
 			</div>
 			<div id="jump-game"></div>
-			<button id="jump_game_start_button" class= "btn btn-secondary mt-3 mb-3"> Start Game </button>
 		</div>
 		<section id="story_link_2" class="hidden">
 			<div class="story-link-two">
@@ -385,6 +392,16 @@
 			</div>
 		</section>
 		<section id="game_4" class="hidden">
+			<div class="text-center mt-5 mb-5">
+				<h2>Can you help the skeletons run home?</h2>
+				<p>Press and keyboard button to jump the pumpkins</p>
+				<button id="run-game-start-button" class= "btn btn-secondary mt-3 mb-3"> Start Game </button>
+			</div>
+			<div class="run-home-game">
+				<div id="run-home-player"></div>
+				<div id="run-home-obstacle"></div>
+			</div>
+			<p id="running-message-board" class="text-center  mt-5">&nbsp</p>
 		</section>
 		<section id="ending_sequence" class="hidden">
 			<div class="story-link-two-append">

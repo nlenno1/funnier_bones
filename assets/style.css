@@ -4,8 +4,12 @@ body {
     font-family: 'Montserrat', Arial, sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1 {
     font-family: 'ZCOOL KuaiLe', sans-serif;
+}
+
+h2, h3, h4, h5 {
+    font-family: "Bubblegum Sans", fantasy;
 }
 
 #title_sequence {
@@ -55,7 +59,7 @@ section {
     overflow:hidden;
 }
 
-#story_link_1 {
+#story_link_1, #game-1 {
     background-image: url(../assets/img/spookybedroom.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -140,7 +144,7 @@ section {
     line-height: 1.3;;
   }
 
-#story_link_3 {
+#story_link_3, #game_4 {
     background-image: url(../assets/img/row-of-houses.png);
     background-repeat: no-repeat;
     background-size: cover;
