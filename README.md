@@ -44,19 +44,13 @@ d
 ## Games
 The website includes four games:
 
-* Game one:
-* Get out of the house 2D platform game.
+1. Get out of the house 2D platform game.
 
-* Game two:
-* Put the dog back together puzzle game.
+2. Put the dog back together puzzle game.
 
-* Game three:
-* Run around the zoo 2D topdown game.
+3. Run around the zoo 2D topdown game.
 
-* Game four:
-* Get home 2D jumping gamed
-
-# Bugs and Issues
+4. Get home 2D jumping game
 
 # Technologies Used
 
