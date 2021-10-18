@@ -1,0 +1,611 @@
+{
+  "id": "1a60cb95-3afa-4042-ac22-16a8b855951b",
+  "version": "2.0",
+  "name": "funnier-bones",
+  "url": "https://nlenno1.github.io",
+  "tests": [{
+    "id": "6412c852-aabe-46cd-93c3-ac7615264ea1",
+    "name": "funnier-bones-test-1",
+    "commands": [{
+      "id": "25c5a540-81f9-4926-8e83-de163c807ece",
+      "comment": "",
+      "command": "open",
+      "target": "https://nlenno1.github.io/funnier_bones/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e89ba55-2237-498e-ac39-9efa9e428d1d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f4aa218-290a-49da-a1da-da23507f0e69",
+      "comment": "",
+      "command": "click",
+      "target": "id=next",
+      "targets": [
+        ["id=next", "id"],
+        ["linkText=›", "linkText"],
+        ["css=#next", "css:finder"],
+        ["xpath=//a[contains(text(),'›')]", "xpath:link"],
+        ["xpath=//a[@id='next']", "xpath:attributes"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'›')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d476726b-3518-4c7b-a36d-bfcc4bac7ea5",
+      "comment": "",
+      "command": "click",
+      "target": "id=next",
+      "targets": [
+        ["id=next", "id"],
+        ["linkText=›", "linkText"],
+        ["css=#next", "css:finder"],
+        ["xpath=//a[contains(text(),'›')]", "xpath:link"],
+        ["xpath=//a[@id='next']", "xpath:attributes"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'›')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "293e8831-0404-4a35-97c0-bd57cacfe238",
+      "comment": "",
+      "command": "click",
+      "target": "id=jump_game_start_button",
+      "targets": [
+        ["id=jump_game_start_button", "id"],
+        ["css=#jump_game_start_button", "css:finder"],
+        ["xpath=//button[@id='jump_game_start_button']", "xpath:attributes"],
+        ["xpath=//div[@id='game-1']/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Start Game')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "429ac85b-8e29-4d11-9fec-3cb120b6c9e6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,100)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a280bd9-e6b9-4b33-8382-cb022f6a3e7b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,237)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "36bf5844-a7c6-4d3a-8579-f72266ed49c0",
+      "comment": "",
+      "command": "click",
+      "target": "id=jump_game_start_button",
+      "targets": [
+        ["id=jump_game_start_button", "id"],
+        ["css=#jump_game_start_button", "css:finder"],
+        ["xpath=//button[@id='jump_game_start_button']", "xpath:attributes"],
+        ["xpath=//div[@id='game-1']/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Start Game')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "31dbdf72-1890-412a-a8fb-b225f69245fc",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=jump_game_start_button",
+      "targets": [
+        ["id=jump_game_start_button", "id"],
+        ["css=#jump_game_start_button", "css:finder"],
+        ["xpath=//button[@id='jump_game_start_button']", "xpath:attributes"],
+        ["xpath=//div[@id='game-1']/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Start Game')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b3d2db7-a2c4-4f18-8c20-f72ce0191188",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=jump_game_start_button",
+      "targets": [
+        ["id=jump_game_start_button", "id"],
+        ["css=#jump_game_start_button", "css:finder"],
+        ["xpath=//button[@id='jump_game_start_button']", "xpath:attributes"],
+        ["xpath=//div[@id='game-1']/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Start Game')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7963e77-2f62-4b2a-87f4-dfb0e5b81ed3",
+      "comment": "",
+      "command": "click",
+      "target": "id=next",
+      "targets": [
+        ["id=next", "id"],
+        ["linkText=›", "linkText"],
+        ["css=#next", "css:finder"],
+        ["xpath=//a[contains(text(),'›')]", "xpath:link"],
+        ["xpath=//a[@id='next']", "xpath:attributes"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'›')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1b3b75c-55fa-4658-83d8-ff1fe96e7dae",
+      "comment": "",
+      "command": "click",
+      "target": "id=next",
+      "targets": [
+        ["id=next", "id"],
+        ["linkText=›", "linkText"],
+        ["css=#next", "css:finder"],
+        ["xpath=//a[contains(text(),'›')]", "xpath:link"],
+        ["xpath=//a[@id='next']", "xpath:attributes"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'›')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1ba9c88-2eb7-403e-aaca-816112f11b92",
+      "comment": "",
+      "command": "click",
+      "target": "id=next",
+      "targets": [
+        ["id=next", "id"],
+        ["linkText=›", "linkText"],
+        ["css=#next", "css:finder"],
+        ["xpath=//a[contains(text(),'›')]", "xpath:link"],
+        ["xpath=//a[@id='next']", "xpath:attributes"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'›')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "725f8bb8-3ae7-4b26-ba72-32676fc4ba2f",
+      "comment": "",
+      "command": "dragAndDropToObject",
+      "target": "id=game-2-part-head",
+      "targets": [],
+      "value": "id=game-2-bg-head"
+    }, {
+      "id": "dd24af5a-92a2-4e22-a643-cc115dad864a",
+      "comment": "",
+      "command": "dragAndDropToObject",
+      "target": "id=game-2-part-front-paw-1",
+      "targets": [],
+      "value": "id=game-2-bg-front-paw-1"
+    }, {
+      "id": "42e95fdf-0253-4572-a46e-6b51bd85116c",
+      "comment": "",
+      "command": "dragAndDropToObject",
+      "target": "id=game-2-part-back-paw-1",
+      "targets": [],
+      "value": "id=game-2-bg-back-paw-1"
+    }, {
+      "id": "a3822aad-5e1d-481b-a796-7ed2864882f2",
+      "comment": "",
+      "command": "dragAndDropToObject",
+      "target": "id=game-2-part-torso-3",
+      "targets": [],
+      "value": "id=game-2-bg-torso-3"
+    }, {
+      "id": "a04af03b-1025-4b1e-b8ce-d758ce8f3fe9",
+      "comment": "",
+      "command": "dragAndDropToObject",
+      "target": "id=game-2-part-back-paw-2",
+      "targets": [],
+      "value": "id=game-2-bg-back-paw-2"
+    }, {
+      "id": "35c4b227-66af-426b-b6d5-2c186525e278",
+      "comment": "",
+      "command": "dragAndDropToObject",
+      "target": "id=game-2-part-front-paw-2",
+      "targets": [],
+      "value": "id=game-2-bg-front-paw-2"
+    }, {
+      "id": "627eaa31-5a31-4f97-936e-2fde992f392b",
+      "comment": "",
+      "command": "dragAndDropToObject",
+      "target": "id=game-2-part-tail-1",
+      "targets": [],
+      "value": "id=game-2-bg-tail-1"
+    }, {
+      "id": "c00449cc-a7a7-476e-9afc-db9c8fab64d8",
+      "comment": "",
+      "command": "dragAndDropToObject",
+      "target": "id=game-2-part-tail-2",
+      "targets": [],
+      "value": "id=game-2-bg-tail-2"
+    }, {
+      "id": "d21488b4-75d9-4e55-b20d-afe6a32b9d18",
+      "comment": "",
+      "command": "dragAndDropToObject",
+      "target": "id=game-2-part-torso-1",
+      "targets": [],
+      "value": "id=game-2-bg-torso-1"
+    }, {
+      "id": "331688f6-e2cd-4835-a667-b5c492447bf4",
+      "comment": "",
+      "command": "dragAndDropToObject",
+      "target": "id=game-2-part-torso-2",
+      "targets": [],
+      "value": "id=game-2-bg-torso-2"
+    }, {
+      "id": "cbc6192a-dfd2-4af9-8aa0-35dc935b3629",
+      "comment": "",
+      "command": "click",
+      "target": "id=next",
+      "targets": [
+        ["id=next", "id"],
+        ["linkText=›", "linkText"],
+        ["css=#next", "css:finder"],
+        ["xpath=//a[contains(text(),'›')]", "xpath:link"],
+        ["xpath=//a[@id='next']", "xpath:attributes"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'›')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4dff3618-bfab-4d7a-a9bf-e98bf8c95145",
+      "comment": "",
+      "command": "click",
+      "target": "id=next",
+      "targets": [
+        ["id=next", "id"],
+        ["linkText=›", "linkText"],
+        ["css=#next", "css:finder"],
+        ["xpath=//a[contains(text(),'›')]", "xpath:link"],
+        ["xpath=//a[@id='next']", "xpath:attributes"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'›')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e90fa09-02ad-434e-9cbf-15278ca3edd2",
+      "comment": "",
+      "command": "click",
+      "target": "id=next",
+      "targets": [
+        ["id=next", "id"],
+        ["linkText=›", "linkText"],
+        ["css=#next", "css:finder"],
+        ["xpath=//a[contains(text(),'›')]", "xpath:link"],
+        ["xpath=//a[@id='next']", "xpath:attributes"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'›')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0658eba-ccb5-4df0-b8e7-af05f38cc93e",
+      "comment": "",
+      "command": "click",
+      "target": "id=prev",
+      "targets": [
+        ["id=prev", "id"],
+        ["linkText=‹", "linkText"],
+        ["css=#prev", "css:finder"],
+        ["xpath=//a[contains(text(),'‹')]", "xpath:link"],
+        ["xpath=//a[@id='prev']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'‹')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "df11b49f-224e-41b0-8d64-ea1f6f9c38fa",
+      "comment": "",
+      "command": "click",
+      "target": "id=prev",
+      "targets": [
+        ["id=prev", "id"],
+        ["linkText=‹", "linkText"],
+        ["css=#prev", "css:finder"],
+        ["xpath=//a[contains(text(),'‹')]", "xpath:link"],
+        ["xpath=//a[@id='prev']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'‹')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d42c2142-2b28-4c66-8126-2654b1e68239",
+      "comment": "",
+      "command": "click",
+      "target": "id=current-page",
+      "targets": [
+        ["id=current-page", "id"],
+        ["css=#current-page", "css:finder"],
+        ["xpath=//span[@id='current-page']", "xpath:attributes"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'7')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d2dd93c-1ea8-4b12-968d-dff7b02cb80c",
+      "comment": "",
+      "command": "click",
+      "target": "id=prev",
+      "targets": [
+        ["id=prev", "id"],
+        ["linkText=‹", "linkText"],
+        ["css=#prev", "css:finder"],
+        ["xpath=//a[contains(text(),'‹')]", "xpath:link"],
+        ["xpath=//a[@id='prev']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'‹')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccd8df0d-c124-44a9-8e2b-19950539b19c",
+      "comment": "",
+      "command": "click",
+      "target": "id=prev",
+      "targets": [
+        ["id=prev", "id"],
+        ["linkText=‹", "linkText"],
+        ["css=#prev", "css:finder"],
+        ["xpath=//a[contains(text(),'‹')]", "xpath:link"],
+        ["xpath=//a[@id='prev']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'‹')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f82f4b9-fcd6-49cb-b8cb-a9a2c2acd92f",
+      "comment": "",
+      "command": "click",
+      "target": "id=next",
+      "targets": [
+        ["id=next", "id"],
+        ["linkText=›", "linkText"],
+        ["css=#next", "css:finder"],
+        ["xpath=//a[contains(text(),'›')]", "xpath:link"],
+        ["xpath=//a[@id='next']", "xpath:attributes"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'›')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "588f987e-594d-46b6-b466-7a200cd7fc39",
+      "comment": "",
+      "command": "click",
+      "target": "id=next",
+      "targets": [
+        ["id=next", "id"],
+        ["linkText=›", "linkText"],
+        ["css=#next", "css:finder"],
+        ["xpath=//a[contains(text(),'›')]", "xpath:link"],
+        ["xpath=//a[@id='next']", "xpath:attributes"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'›')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7638126-f18c-4415-b41f-6bdbd5ceb0a2",
+      "comment": "",
+      "command": "click",
+      "target": "id=next",
+      "targets": [
+        ["id=next", "id"],
+        ["linkText=›", "linkText"],
+        ["css=#next", "css:finder"],
+        ["xpath=//a[contains(text(),'›')]", "xpath:link"],
+        ["xpath=//a[@id='next']", "xpath:attributes"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'›')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3098c89-bc0d-4316-a97c-be3946c689ec",
+      "comment": "",
+      "command": "click",
+      "target": "id=next",
+      "targets": [
+        ["id=next", "id"],
+        ["linkText=›", "linkText"],
+        ["css=#next", "css:finder"],
+        ["xpath=//a[contains(text(),'›')]", "xpath:link"],
+        ["xpath=//a[@id='next']", "xpath:attributes"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'›')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "70d78893-6260-4524-a1a4-c8b2cded44c7",
+      "comment": "",
+      "command": "click",
+      "target": "id=next",
+      "targets": [
+        ["id=next", "id"],
+        ["linkText=›", "linkText"],
+        ["css=#next", "css:finder"],
+        ["xpath=//a[contains(text(),'›')]", "xpath:link"],
+        ["xpath=//a[@id='next']", "xpath:attributes"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'›')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9982dfca-40a7-48ab-8bd2-936cb8f3cf63",
+      "comment": "",
+      "command": "click",
+      "target": "id=run-game-start-button",
+      "targets": [
+        ["id=run-game-start-button", "id"],
+        ["css=#run-game-start-button", "css:finder"],
+        ["xpath=//button[@id='run-game-start-button']", "xpath:attributes"],
+        ["xpath=//section[@id='game_4']/div/button", "xpath:idRelative"],
+        ["xpath=//section[9]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23eebd0a-0c8d-43ec-a833-896f043633f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.run-home-game",
+      "targets": [
+        ["css=.run-home-game", "css:finder"],
+        ["xpath=//section[@id='game_4']/div[2]", "xpath:idRelative"],
+        ["xpath=//section[9]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d8bc96d-3c01-4fbc-815c-5cb3271e4ebb",
+      "comment": "",
+      "command": "click",
+      "target": "id=run-game-start-button",
+      "targets": [
+        ["id=run-game-start-button", "id"],
+        ["css=#run-game-start-button", "css:finder"],
+        ["xpath=//button[@id='run-game-start-button']", "xpath:attributes"],
+        ["xpath=//section[@id='game_4']/div/button", "xpath:idRelative"],
+        ["xpath=//section[9]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f5ed64a-356a-411e-9f25-c3196073c507",
+      "comment": "",
+      "command": "click",
+      "target": "id=run-game-start-button",
+      "targets": [
+        ["id=run-game-start-button", "id"],
+        ["css=#run-game-start-button", "css:finder"],
+        ["xpath=//button[@id='run-game-start-button']", "xpath:attributes"],
+        ["xpath=//section[@id='game_4']/div/button", "xpath:idRelative"],
+        ["xpath=//section[9]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab8ec8ec-9101-4af5-90f3-2cc7b7328b72",
+      "comment": "",
+      "command": "click",
+      "target": "id=run-game-start-button",
+      "targets": [
+        ["id=run-game-start-button", "id"],
+        ["css=#run-game-start-button", "css:finder"],
+        ["xpath=//button[@id='run-game-start-button']", "xpath:attributes"],
+        ["xpath=//section[@id='game_4']/div/button", "xpath:idRelative"],
+        ["xpath=//section[9]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d39da76a-ce64-4a87-877b-a01834f40410",
+      "comment": "",
+      "command": "click",
+      "target": "id=run-game-start-button",
+      "targets": [
+        ["id=run-game-start-button", "id"],
+        ["css=#run-game-start-button", "css:finder"],
+        ["xpath=//button[@id='run-game-start-button']", "xpath:attributes"],
+        ["xpath=//section[@id='game_4']/div/button", "xpath:idRelative"],
+        ["xpath=//section[9]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "834ab11b-48e3-4f05-839a-66127f088c3d",
+      "comment": "",
+      "command": "click",
+      "target": "id=run-game-start-button",
+      "targets": [
+        ["id=run-game-start-button", "id"],
+        ["css=#run-game-start-button", "css:finder"],
+        ["xpath=//button[@id='run-game-start-button']", "xpath:attributes"],
+        ["xpath=//section[@id='game_4']/div/button", "xpath:idRelative"],
+        ["xpath=//section[9]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a26cf582-8f77-4a41-a133-c91235a09163",
+      "comment": "",
+      "command": "click",
+      "target": "id=run-game-start-button",
+      "targets": [
+        ["id=run-game-start-button", "id"],
+        ["css=#run-game-start-button", "css:finder"],
+        ["xpath=//button[@id='run-game-start-button']", "xpath:attributes"],
+        ["xpath=//section[@id='game_4']/div/button", "xpath:idRelative"],
+        ["xpath=//section[9]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44093f0a-03ab-441d-8b2a-f4af75d7972b",
+      "comment": "",
+      "command": "click",
+      "target": "id=run-game-start-button",
+      "targets": [
+        ["id=run-game-start-button", "id"],
+        ["css=#run-game-start-button", "css:finder"],
+        ["xpath=//button[@id='run-game-start-button']", "xpath:attributes"],
+        ["xpath=//section[@id='game_4']/div/button", "xpath:idRelative"],
+        ["xpath=//section[9]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4fe4862-494b-41fa-b465-efbf629784b5",
+      "comment": "",
+      "command": "click",
+      "target": "id=next",
+      "targets": [
+        ["id=next", "id"],
+        ["linkText=›", "linkText"],
+        ["css=#next", "css:finder"],
+        ["xpath=//a[contains(text(),'›')]", "xpath:link"],
+        ["xpath=//a[@id='next']", "xpath:attributes"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'›')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e19a072-72de-4233-95bb-3eea3a5750e7",
+      "comment": "",
+      "command": "click",
+      "target": "css=strong",
+      "targets": [
+        ["css=strong", "css:finder"],
+        ["xpath=//strong", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59ce76c5-fcad-456d-8386-6aa761bf4d11",
+      "comment": "",
+      "command": "click",
+      "target": "css=strong",
+      "targets": [
+        ["css=strong", "css:finder"],
+        ["xpath=//strong", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "94c8cda1-f20d-414c-b8e1-295a7f800836",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6412c852-aabe-46cd-93c3-ac7615264ea1"]
+  }],
+  "urls": ["https://nlenno1.github.io/"],
+  "plugins": []
+}
