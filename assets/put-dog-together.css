@@ -37,13 +37,13 @@
     top: 0;
     left: 0;
     width: 115px;
-    height: 132px;
+    height: 119px;
 }
 
 #game-2-bg-front-paw-1 {
     top: 119px;
     left: 97px;
-    width: 24px;
+    width: 20px;
     height: 65px;
 }
 
@@ -56,14 +56,14 @@
 
 #game-2-bg-torso-1 {
     top: 110px;
-    left: 109px;
-    width: 28px;
+    left: 116px;
+    width: 25px;
     height: 79px;
 }
 
 #game-2-bg-torso-2 {
     top: 102px;
-    left: 134px;
+    left: 138px;
     width: 20px;
     height: 72px;
 }
