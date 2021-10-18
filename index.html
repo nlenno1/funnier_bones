@@ -25,6 +25,7 @@
 	<link rel="stylesheet" href="assets/put-dog-together.css">
 	<link rel="stylesheet" href="assets/navigation.css">
 	<link rel="stylesheet" href="assets/get-out-the-house.css">
+	<link rel="stylesheet" href="assets/run-home-game.css">
 	<title>Funnier Bones</title>
 </head>
 
@@ -193,12 +194,12 @@
 		</section>
 		<div id="game-1" class="text-center hidden">
 			<div class="mt-5">
-				<h4> Can you help the skeleton get to the door?</h4>
-				<p>Use the arrow keys to move and jump!</p>
+				<h4> Can you help the skeleton get up to the door to go outside?</h4>
+				<p>Use the arrow keys to move and bounce on the platforms to get higher and higher!</p>
+				<p id="message-board">Click the button the start the game!</p>
 			</div>
 			<div id="jump-game"></div>
 			<button id="jump_game_start_button" class= "btn btn-secondary mt-3 mb-3"> Start Game </button>
-			<p id="message-board">Click the button the start the game!</p>
 		</div>
 		<section id="story_link_2" class="hidden">
 			<div class="story-link-two">
@@ -379,8 +380,15 @@
 		<section id="story_link_3" class="hidden">
 
 		</section>
-		<section id="game_4" class="hidden">
-
+		<section id="game_4">
+			<div class="run-home-game">
+				<div id="run-home-player"></div>
+				<div id="run-home-obstacle"></div>
+			</div>
+			<div class="text-center px-5">
+				<button id="running-game-start-button" class="btn btn-secondary mt-3 mb-3">Start Game</button>
+				<p id="running-message-board">Press any key to jump over the pumpkins as you run home! Click the button the start the game!</p>
+			</div>
 		</section>
 		<section id="ending_sequence" class="hidden">
 
@@ -406,6 +414,7 @@
 	<script type="text/javascript" src="assets/js/put-dog-together.js"></script>
 	<script type="text/javascript" src="assets/js/navigation.js"></script>
 	<script type="text/javascript" src="assets/js/get-out-the-house-game.js"></script>
+	<script type="text/javascript" src="assets/js/run-home-game.js"></script>
 </body>
 
 </html>
