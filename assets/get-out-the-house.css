@@ -16,7 +16,7 @@
 
 .jump-game-player {
     width: 60px;
-    height: 85px;
+    height: 55px;
     position: absolute;
     background-image:url(img/jumping_skeleton.png);
     background-size: contain;
