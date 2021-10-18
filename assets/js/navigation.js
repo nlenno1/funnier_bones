@@ -9,6 +9,7 @@ var sections = [
     $('#game_2'),
     $('#story_link_3'),
     $('#game_3'),
+    $('#story_link_4'),
     $('#game_4'),
     $('#ending_sequence')
 ];
