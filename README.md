@@ -39,7 +39,9 @@ Page 7 - Bring the skeletons throught the zoo
 **Colour Scheme**
 
 **Typography**
-
+* The Bubblegum Sans", fantasy font was used for the story text.
+* Montserrat', Arial, sans-serif for main body text.
+* ZCOOL KuaiLe', sans-serif for main title text.
 **Imagery**
 
 
