@@ -4,7 +4,7 @@ document.querySelector("#jump_game_start_button").addEventListener("click", func
     let jumperLeftSpace = 50
     let startPoint = 150
     let jumperBottomSpace = startPoint
-    let platformCount = 5
+    let platformCount = 4
     let isGameOver = false
     let platforms = []
     let upTimerId

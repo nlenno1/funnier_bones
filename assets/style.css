@@ -55,7 +55,7 @@ section {
     overflow:hidden;
 }
 
-#story_link_1 {
+#story_link_1, #game-1 {
     background-image: url(../assets/img/spookybedroom.jpg);
     background-repeat: no-repeat;
     background-size: cover;

@@ -6,7 +6,9 @@
 #jump-game {
     width: 400px;
     height: 550px;
-    background-color: #c4c4c4;
+    background-color:rgba(196, 196, 196, 0.3);
+    border: 8px groove #c4c4c4;
+    border-top: hidden;
     position: relative;
     margin: 0 auto;
     font-size: 50px;
