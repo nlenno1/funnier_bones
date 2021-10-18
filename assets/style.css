@@ -159,3 +159,11 @@ section {
     background-position: center;
     height: 100%;
 }
+
+.sound-button-icon {
+    color: #8d8d8d;
+}
+
+.sound-button {
+    margin-left: 25px;
+}
