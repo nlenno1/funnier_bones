@@ -7,8 +7,9 @@
 # Introduction
 Join the Funnybones skeletons in their fun and spooky adventures around the town!
 A new interactive take on the modern classic children's story - Funnybones.
+
+This project was built as part of Code Institutes Halloween 'Spookathon' Hackathon event, October 2021.
 # Development Planes
-## Strategy
 
 ### Project Goals
 * To present a new look and experience to the children's book Funnybones.
@@ -32,8 +33,6 @@ Page 6 - Put the dog back together
 Page 7 - Bring the skeletons throught the zoo
 ![alt_text](assets/wireframes/wireframe-4.png "image_tooltip")
 
-## Skeleton
-
 ### Design
 
 **Colour Scheme**
@@ -42,8 +41,6 @@ Page 7 - Bring the skeletons throught the zoo
 * The Bubblegum Sans", fantasy font was used for the story text.
 * Montserrat', Arial, sans-serif for main body text.
 * ZCOOL KuaiLe', sans-serif for main title text.
-**Imagery**
-
 
 # Features
 * The complete Funnybones storyline.
@@ -55,23 +52,13 @@ Page 7 - Bring the skeletons throught the zoo
 ## Games
 The website includes four games:
 
-* Game one:
-* Get out of the house 2D platform game.
+1. Get out of the house 2D platform game.
 
-* Game two:
-* Put the dog back together puzzle game.
+2. Put the dog back together puzzle game.
 
-* Game three:
-* Run around the zoo 2D topdown game.
+3. Run around the zoo 2D topdown game.
 
-* Game four:
-* Get home 2D jumping game
-
-
-## Features for future releases
-
-
-# Bugs and Issues
+4. Get home 2D jumping game
 
 # Technologies Used
 
@@ -92,8 +79,12 @@ The website includes four games:
 - [CSS Beautifier](https://www.freeformatter.com/css-beautifier.html) - Beautifying CSS Code
 - [JavaScript Validator](https://beautifytools.com/javascript-validator.php) - Validating JS code
 - [Font Awesome](https://fontawesome.com/) - Icon provider
+= [Lighthouse](https://developers.google.com/web/tools/lighthouse) - Webpage testing
 
 # Testing
+
+Lighthouse Testing
+![Lighthouse Test Results Image](assets/img/funnier_bones_lighthouse_testing.jpg)
 
 
 # Validation
@@ -161,8 +152,9 @@ Game music is "A friendly ghost" by Arthur Benson from open source music website
 * [Clipart Library](http://clipart-library.com/) was used for background images and for the [skeleton dog](http://clipart-library.com/clipart/n740427.htm) of the second game
 * Pixabay [hounted house](https://pixabay.com/illustrations/halloween-haunted-house-horror-836849/) and [twilight light night](https://pixabay.com/vectors/landscape-twilight-light-night-1844231/) was used for background images
 * [Giphy](https://giphy.com/gifs/lightning-strike-CKlafeh1NAxz35KTq4) was used for the giff image behind the text.
-* [Illustoon](https://illustoon.com/) images were used to create the Hackathon App image
+* [Illustoon](https://illustoon.com/) images were used to create the Hackathon App image and in some of the games
 
 ## Acknowledgments
 
+Thanks to our Facilitator Naoise Gaffney for all his help and guidance through building this project!
 
