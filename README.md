@@ -96,6 +96,8 @@ To open this file:
 - Download the add-on for the browser you're currently using (e.g. if you're using Google Chrome, click on "CHROME DOWNLOAD")
 - Open the add-on
 - Click on Open Project
+- Click on Run all tests
+- In the Log section you will see "'funnier-bones-test-1' completed successfully"
 
 # Deployment
 
