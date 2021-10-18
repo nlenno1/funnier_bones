@@ -36,6 +36,9 @@ Page 7 - Bring the skeletons throught the zoo
 ### Design
 
 **Colour Scheme**
+* The colors used are those associated with halloween.
+* #703c14, #a14907 and #401d03 for orange hues on pumpkins.
+* Black and white colors used for text and backgrounds.
 
 **Typography**
 * The Bubblegum Sans", fantasy font was used for the story text.
@@ -86,10 +89,6 @@ The website includes four games:
 Lighthouse Testing
 ![Lighthouse Test Results Image](assets/img/funnier_bones_lighthouse_testing.jpg)
 
-
-# Validation
-
-
 # Deployment
 
 All the code was written using [Gitpod](https://www.gitpod.io/), an online IDE, and then pushed to a repository which was stored on a [Gitpod account](https://github.com/nlenno1/).
@@ -131,6 +130,7 @@ To clone the repository, you first need to:
 # Credits
 
 ## Content
+* Funnybones was created by Janet Ahlberg and Allan Ahlberg, and written by Jocelyn Stevenson.
 
 * Spider animation was a modified version of this [CodePen](https://codepen.io/SofiaSergio/pen/geGqBa)
 Pumpkin CSS was modified version of the one found in this [tutorial](https://thecodeplayer.com/walkthrough/pure-css-pumpkin)
